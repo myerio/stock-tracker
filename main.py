@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from database import add_stock, get_stocks
+from ai import ask_about_stocks
 
 app = FastAPI()
 
@@ -23,3 +24,8 @@ def get_stocks_api():
 def add_stock_api(stock: Stock):
     add_stock(stock.name, stock.buy_price, stock.amount, stock.sell_price, stock.date)
     return {"message": "Stock added successfully"}
+
+@app.get("/ask")
+def ask_ai(question: str):
+    answer = ask_about_stocks(question)
+    return {"answer": answer}
