@@ -1,2 +1,2 @@
 echo __pycache__/ > .gitignore
-echo stocks.json >> .gitignore
+echo stocks.json >> .gitignorestocks.db
