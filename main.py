@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from stocks import stocks, add_stock
+from database import add_stock, get_stocks
 
 app = FastAPI()
 
@@ -16,8 +16,8 @@ def home():
     return {"message": "Stock tracker is running"}
 
 @app.get("/stocks")
-def get_stocks():
-    return stocks
+def get_stocks_api():
+    return get_stocks()
 
 @app.post("/stocks")
 def add_stock_api(stock: Stock):
