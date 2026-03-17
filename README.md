@@ -9,6 +9,11 @@ A REST API that tracks your stock portfolio and automatically calculates profit 
 - Persistent storage with SQLite database
 - Unit tested
 
+## AI Assistant
+- GET /ask?question=your question - Ask AI about your portfolio
+- Powered by Mistral running locally via Ollama
+- Example: "Which is my most profitable stock?"
+
 ## Technologies Used
 - Python
 - FastAPI
