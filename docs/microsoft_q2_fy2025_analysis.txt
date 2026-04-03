@@ -1,0 +1,13 @@
+Microsoft Corporation (MSFT) - Q2 FY2025 Analysis
+
+Microsoft delivered strong results for Q2 FY2025 with revenue of $69.6 billion, up 12% year-over-year. Azure and cloud services revenue grew 31%, marking continued acceleration in cloud adoption. The Intelligent Cloud segment generated $25.5 billion in revenue.
+
+The company's AI investments are showing returns through Azure OpenAI Service, which now has over 53,000 enterprise customers. GitHub Copilot subscribers exceeded 1.8 million, contributing to Productivity and Business Processes segment growth of 14%.
+
+Operating income reached $30.6 billion with an operating margin of 44.0%. Free cash flow was $20.3 billion for the quarter. Microsoft returned $9.7 billion to shareholders through dividends and buybacks.
+
+Key growth drivers include AI integration across the product stack, continued Azure market share gains, and the gaming segment contribution from the Activision Blizzard acquisition. Risks include regulatory scrutiny of AI practices, potential cloud spending slowdowns, and integration challenges with acquired businesses.
+
+Analyst consensus price target is $510, with a range of $420 to $600. The stock trades at 35x forward earnings. Azure growth trajectory and AI monetization remain the primary catalysts.
+
+Recommendation: Buy on dips. Microsoft's AI positioning across enterprise and consumer segments is unmatched. The Azure growth rate acceleration justifies the premium multiple. Target entry below $440 for new positions.
